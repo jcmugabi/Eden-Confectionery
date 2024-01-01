@@ -1,3 +1,30 @@
 .home-page header{
-    background-image: url(../imgs/);
+    background-image: url(../imgs/header-img.jpg);
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    /* box-shadow: 0px 55px 50px -55px #111; */
+}
+
+header h1 {
+    font-size: 5rem;
+}
+
+.home-page header h1,
+.home-page header h2 {
+    text-shadow: 2px 2px 2px #ee9135;
+}
+
+@media only screen and (max-width: 768px){
+    header h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    header h1 {
+        font-size: 3rem;
+    }
 }
