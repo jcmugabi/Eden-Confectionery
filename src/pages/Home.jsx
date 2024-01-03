@@ -5,7 +5,6 @@ import AboutImg from '../imgs/about-img.jpg'
 import { Form, Link } from 'react-router-dom';
 import {CakeGallery} from '../components/CakeGallery';
 import {ContactInfo} from '../components/ContactInfo';
-import ContactImage from '../imgs/contact-img.jpg'
 
 const Home = () => {
   return (
@@ -94,8 +93,20 @@ const Home = () => {
               <ContactInfo />
             </div>
             <div className='col-lg-6 d-flex justify-content-center'>
+              <iframe
+                title="Google Maps Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2533.838883770679!2d32.69882353921313!3d0.36265797975953005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177ddb5d1ef5f169%3A0x95b5291ef4568d46!2sEden%20Confectionery!5e0!3m2!1sen!2sug!4v1625328751602!5m2!1sen!2sug"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                aria-hidden="false"
+                tabIndex="0">
+              </iframe>
+           </div>
+
+            {/* <div className='col-lg-4 d-flex justify-content-center'>
               <img src={ContactImage} className='img-fluid w-50' alt="" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
