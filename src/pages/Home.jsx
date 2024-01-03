@@ -20,13 +20,24 @@ const Home = () => {
         </header>
 
         <div className='container my-5'>
-          <div className='col-lg-6 d-flex justify-content-center d-none d-lg-flex'>
-            <div></div>
-          </div>
-          <div className='col-lg-6 d-flex flex-column align-items-center justify-content-center'>
-            <h2 className='fs-1 mb-5 text-uppercase fw-bold'> About Us</h2>
+          <div className='row'>
+            <div className='col-lg-6 d-flex justify-content-center d-none d-lg-flex'>
+              <div></div>
+            </div>
+              <div className='col-lg-6 d-flex flex-column align-items-center justify-content-center'>
+                <h2 className='fs-1 mb-5 text-uppercase fw-bold'> About Us</h2>
+                <p>Eden Confectionery is a Brsnd that started as a small personal business. The owner is Ms. Joy Kezia Kisakye, supported by a group of staff, where majority turn out to be part of her family.</p>
+                <p className='mb-5'>The Confectionery is a family tradition. Their baked goods bring back fond memories. It's like a taste of home! Visually Stunning, amazing flovours. Simply the best!</p>
+                <Link to='/about'>
+                <button type='button' className='btn btn-outline-success btn-lg'>
+                  More About Us
+                </button>
+                </Link>
+            </div>
           </div>
         </div>
+
+        
     </div>
   )
 }

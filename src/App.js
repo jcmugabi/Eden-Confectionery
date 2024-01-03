@@ -47,7 +47,7 @@ function App() {
 
       <footer className="bg-body-tertiary">
         <p className="p-3 m-0 text-center">
-          copyright @ <a href="github.com/jcmugabi">Joseph C. Mugabi</a>
+          copyright @ <a href="github.com/jcmugabi">mug_joe</a>
         </p>
       </footer>
     </div>
