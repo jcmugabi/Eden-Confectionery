@@ -3,6 +3,7 @@ import { MenuBtn } from '../components/MenuBtn';
 import './Home.css'
 import AboutImg from '../imgs/about-img.jpg'
 import { Form, Link } from 'react-router-dom';
+import {CakeGallery} from '../components/CakeGallery';
 
 const Home = () => {
   return (
@@ -82,6 +83,7 @@ const Home = () => {
           <MenuBtn />
         </div>
       </div>
+      <CakeGallery/>
     </div>
   )
 }
