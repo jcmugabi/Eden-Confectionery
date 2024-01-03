@@ -4,6 +4,8 @@ import './Home.css'
 import AboutImg from '../imgs/about-img.jpg'
 import { Form, Link } from 'react-router-dom';
 import {CakeGallery} from '../components/CakeGallery';
+import {ContactInfo} from '../components/ContactInfo';
+import ContactImage from '../imgs/contact-img.jpg'
 
 const Home = () => {
   return (
@@ -84,6 +86,19 @@ const Home = () => {
         </div>
       </div>
       <CakeGallery/>
+
+      <div className='bg-dark text-light py-5 shadow'>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-lg-6 d-flex flex-column align-items-center justtify-content-center mb-5 mb-lg-0'>
+              <ContactInfo />
+            </div>
+            <div className='col-lg-6 d-flex justify-content-center'>
+              <img src={ContactImage} className='img-fluid w-50' alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
