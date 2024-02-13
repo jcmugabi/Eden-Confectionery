@@ -1,4 +1,4 @@
 .menu-page header {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../imgs/cakes-img.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url(../imgs/cakes-img.webp);
     height: 50vh;
 }

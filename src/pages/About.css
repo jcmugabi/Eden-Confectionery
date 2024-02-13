@@ -1,4 +1,4 @@
 .about-page header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0, 0.8)),url(../imgs/aboutpage-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0, 0.9)),url(../imgs/aboutpage-img.jpg);
     height: 50vh;
 }
