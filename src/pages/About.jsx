@@ -29,6 +29,7 @@ function About() {
       <div className='bg-dark text-light'>
         <CakeGallery />
       </div>
+      <div className='bg-light text-dark py-5'><h2>Reviews</h2> </div>
     </div>
   )
 }
