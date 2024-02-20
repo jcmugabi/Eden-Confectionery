@@ -40,8 +40,8 @@ const Cakes = () => {
             {[...Array(numSlides)].map((_, slideIndex) => (
               <Carousel.Item key={slideIndex}>
                 <motion.div
-                  whileHover={{ scale: 1.1 }}
-                  transition={{ duration: 0.3 }}
+                  whileHover={{ scale: 0.98 }}
+                  transition={{ duration: 0.5 }}
                 >
                   <Container>
                     <Row className='justify-content-center'>
@@ -54,7 +54,7 @@ const Cakes = () => {
                             <Card className='border-0'>
                               <Card.Img variant='top' src={item.img} alt='cake' />
                               <Card.ImgOverlay className='d-flex align-items-start'>
-                                <Card.Text className='text-light fs-3 fw-bold'>
+                                <Card.Text className='text-dark fs-3 fw-bold'>
                                   {item.price}
                                 </Card.Text>
                               </Card.ImgOverlay>
