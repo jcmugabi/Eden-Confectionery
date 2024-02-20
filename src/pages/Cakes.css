@@ -2,3 +2,8 @@
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url(../imgs/cakes-img.webp);
     height: 50vh;
 }
+img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
