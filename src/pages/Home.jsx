@@ -135,16 +135,20 @@ const Home = () => {
           <h3 className='fs-2 mb-5'>Weddings</h3>
           <ul className='px-0'>
             <li className='d-flex justify-content-between'>
-              <p className='fs-3 mx-2'> english Breakfast</p>
-              <p fs-3 mx-2 text-success fw-bold>UGX 80,000</p>
+              <p className='fs-3 mx-2'> 3 tier mixed flovour</p>
+              <p fs-3 mx-2 text-success fw-bold>UGX 1,200,000</p>
             </li>
             <li className='d-flex justify-content-between'>
-              <p className='fs-3 mx-2'>Spicy Beef</p>
-              <p fs-3 mx-2 text-success fw-bold>UGX 120,000</p>
+              <p className='fs-3 mx-2'>3 tier friut cake</p>
+              <p fs-3 mx-2 text-success fw-bold>UGX 1,600,000</p>
             </li>
             <li className='d-flex justify-content-between'>
-              <p className='fs-3 mx-2'>Spaghetti Bolognese</p>
-              <p fs-3 mx-2 text-success fw-bold>UGX 100,000</p>
+              <p className='fs-3 mx-2'>4 tier mixed flovour</p>
+              <p fs-3 mx-2 text-success fw-bold>UGX 2,000,000</p>
+            </li>
+            <li className='d-flex justify-content-between'>
+              <p className='fs-3 mx-2'>4 tier friut cake</p>
+              <p fs-3 mx-2 text-success fw-bold>UGX 2,400,000</p>
             </li>
           </ul>
         </motion.div>
@@ -154,16 +158,20 @@ const Home = () => {
               <h3 className='fs-2 mb-5'>Birthdays</h3>
               <ul className='px-0'>
                 <li className='d-flex justify-content-between'>
-                  <p className='fs-3 mx-2'> english Breakfast</p>
+                  <p className='fs-3 mx-2'> 1 layer(1 flovour)</p>
                   <p fs-3 mx-2 text-success fw-bold>UGX 80,000</p>
                 </li>
                 <li className='d-flex justify-content-between'>
-                  <p className='fs-3 mx-2'>Spicy Beef</p>
+                  <p className='fs-3 mx-2'>2 layer(2 flovour)</p>
                   <p fs-3 mx-2 text-success fw-bold>UGX 120,000</p>
                 </li>
                 <li className='d-flex justify-content-between'>
-                  <p className='fs-3 mx-2'>Spaghetti Bolognese</p>
-                  <p fs-3 mx-2 text-success fw-bold>UGX 100,000</p>
+                  <p className='fs-3 mx-2'>3 layer(2 flovour)</p>
+                  <p fs-3 mx-2 text-success fw-bold>UGX 180,000</p>
+                </li>
+                <li className='d-flex justify-content-between'>
+                  <p className='fs-3 mx-2'>4 layer(2 flovour)</p>
+                  <p fs-3 mx-2 text-success fw-bold>UGX 250,000</p>
                 </li>
               </ul>
               </motion.div>
