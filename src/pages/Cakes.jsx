@@ -6,6 +6,7 @@ import LemonImg from '../imgs/lemon-cake.jpg';
 import CaramelImg from '../imgs/caramel-cake.jpg';
 import ChocolateImg from '../imgs/chocolate-cake.webp';
 import CoconutImg from '../imgs/coconut-cake.jpg';
+import './Cakes.css';
 
 const imagesAndPrices = [
   { img: RedVelvetImg, price: 'UGX 50,000' },
@@ -27,11 +28,9 @@ const Cakes = () => {
   return (
     <div className='menu-page'>
       <header className='mt-5'>
-        <Container fluid>
-          <Row className='h-100 align-items-center justify-content-center'>
-            <h1 className='text-light'>Cakes</h1>
-          </Row>
-        </Container>
+        <div className='container h-100 d-flex align-items-center justify-content-center'>
+          <h1 className='text-light'>Cakes</h1>
+        </div>
       </header>
 
       <div className='cake-carousel my-5'>
