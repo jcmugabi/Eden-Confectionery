@@ -7,3 +7,18 @@ img {
     height: 20rem;
     object-fit: cover;
 }
+
+.carousel-arrow {
+    font-size: 2rem; /* Adjust the font size as needed */
+    color: #fff; /* Set the color of the arrows */
+    background-color: rgba(0, 0, 0, 0.5); /* Set the background color of the arrows */
+    border: none; /* Remove any border */
+    padding: 10px; /* Add padding for better visibility */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .carousel-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darken the background color on hover */
+  }
+  

@@ -5,26 +5,8 @@ import { motion } from 'framer-motion';
 const Slider = ({ numSlides, imagesAndPrices, reverseAnimation }) => {
   const slideIndexes = reverseAnimation ? [...Array(numSlides)].map((_, index) => numSlides - 1 - index) : [...Array(numSlides)].map((_, index) => index);
 
-  // Custom styles for navigation buttons
-  const buttonStyle = {
-    fontSize: '2rem', // Adjust the font size
-    color: '#fff', // Set the color of the arrows
-    backgroundColor: 'rgba(0, 0, 0, 0.5)', // Set the background color
-    border: 'none', // Remove any border
-    padding: '10px', // Add padding for better visibility
-    borderRadius: '5px', // Add border radius for rounded corners
-    cursor: 'pointer', // Change cursor to pointer on hover
-  };
-
   return (
-    <Carousel
-      indicators={false}
-      pause={false}
-      controls={true}
-      nextIcon={<span style={buttonStyle}>&#x276F;</span>}
-      prevIcon={<span style={buttonStyle}>&#x276E;</span>}
-      reverse={reverseAnimation}
-    >
+    <Carousel indicators={false} pause={false} controls={true} nextIcon={<span className="carousel-arrow">&#x276F;</span>} prevIcon={<span className="carousel-arrow">&#x276E;</span>} reverse={reverseAnimation}>
       {slideIndexes.map((slideIndex) => (
         <Carousel.Item key={slideIndex}>
           <motion.div
