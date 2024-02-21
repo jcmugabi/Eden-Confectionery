@@ -38,6 +38,8 @@ const Cakes = () => {
         <Container>
           <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Birthday Cakes</h2>
           <Slider numSlides={numSlides} imagesAndPrices={imagesAndPrices} />
+          <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Wedding Cakes</h2>
+          <Slider numSlides={numSlides} imagesAndPrices={imagesAndPrices} reverseAnimation={true} />
         </Container>
       </div>
     </div>

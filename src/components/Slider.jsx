@@ -1,9 +1,8 @@
 import React from 'react';
-import { Card, Carousel } from 'react-bootstrap';
+import { Carousel, Card, Container, Row, Col } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import { Container, Row, Col } from 'react-bootstrap';
 
-const Slider = ({ numSlides, imagesAndPrices }) => {
+const Slider = ({ numSlides, imagesAndPrices, reverseAnimation }) => {
   return (
     <Carousel indicators={false} pause={false}>
       {[...Array(numSlides)].map((_, slideIndex) => (
@@ -20,6 +19,7 @@ const Slider = ({ numSlides, imagesAndPrices }) => {
                   if (!item) return null; // Skip if no item exists
                   return (
                     <Col lg={4} md={12} key={dataIndex}>
+                      {/* eslint-disable-next-line */}
                       <Card className='border-0'>
                         <Card.Img variant='top' src={item.img} alt='cake' />
                         <Card.ImgOverlay className='d-flex align-items-start'>
