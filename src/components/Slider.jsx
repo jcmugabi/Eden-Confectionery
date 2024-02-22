@@ -10,7 +10,7 @@ const Slider = ({ numSlides, imagesAndPrices, reverseAnimation }) => {
       {slideIndexes.map((slideIndex) => (
         <Carousel.Item key={slideIndex}>
           <motion.div
-            whileHover={{ scale: 0.98 }}
+            whileHover={{ scale: 0.99 }}
             transition={{ duration: 0.5 }}
           >
             <Container>
