@@ -8,7 +8,7 @@ export function ContactInfo() {
             <p className="mb-1 fw-bold fst-italic">+256 781 552 058</p>
             <p className="mb-4 fw-bold fst-italic">+256 701 355 787</p>
             <h3 >Opening Hours</h3>
-            <p>Mon - Fri: 09:00 - 17:00</p>
+            <p>Mon - Fri: 08:00 - 18:00</p>
             <p>Sat - Sun: 10:00 - 15:00</p>
         </div>
     )
