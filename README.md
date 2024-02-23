@@ -7,8 +7,8 @@ Eden Confectionery is more than just a bakery; it's a celebration of flavors, tr
 
 ## Contact Information
 #### Website Builder: Joseph C. Mugabi
-#### GitHub: [github.com/jcmugabi]
-#### LinkedIn: [linkedin.com/in/joseph-charles-mugabi-b26524271]
+#### [GitHub](github.com/jcmugabi)
+#### [LinkedIn](linkedin.com/in/joseph-charles-mugabi-b26524271)
 
 ## Get in Touch
 We're passionate about baking and dedicated to providing you with the finest baked goods and exceptional service. If you have any questions, inquiries, or feedback, please don't hesitate to reach out to us. Your satisfaction is our priority!
