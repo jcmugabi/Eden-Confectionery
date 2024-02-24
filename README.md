@@ -10,7 +10,4 @@ Eden Confectionery is more than just a bakery; it's a celebration of flavors, tr
 #### [GitHub](github.com/jcmugabi)
 #### [LinkedIn](linkedin.com/in/joseph-charles-mugabi-b26524271)
 
-## Get in Touch
-We're passionate about baking and dedicated to providing you with the finest baked goods and exceptional service. If you have any questions, inquiries, or feedback, please don't hesitate to reach out to us. Your satisfaction is our priority!
-
-Thank you for visiting the Eden Confectionery website codebase. We look forward to serving you soon and making your baking experience truly delightful!
+Thank you for visiting the Eden Confectionery website codebase. We look forward to having the site up and running soon and serving you delightfully!
