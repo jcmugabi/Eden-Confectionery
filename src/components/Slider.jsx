@@ -11,7 +11,7 @@ const Slider = ({ numSlides, imagesAndPrices, reverseAnimation }) => {
         <Carousel.Item key={slideIndex}>
           <motion.div
             whileHover={{ scale: 0.99 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.4 }}
           >
             <Container>
               <Row className='justify-content-center'>
