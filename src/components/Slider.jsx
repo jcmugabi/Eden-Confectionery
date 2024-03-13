@@ -9,18 +9,18 @@ const Slider = ({ numSlides, imagesAndPrices, reverseAnimation }) => {
     <Carousel indicators={false} pause={false} controls={true} nextIcon={<span className="carousel-arrow">&#x276F;</span>} prevIcon={<span className="carousel-arrow">&#x276E;</span>} reverse={reverseAnimation}>
       {slideIndexes.map((slideIndex) => (
         <Carousel.Item key={slideIndex}>
-          <motion.div
-            whileHover={{ scale: 0.99 }}
-            transition={{ duration: 0.4 }}
-          >
-            <Container>
-              <Row className='justify-content-center'>
-                {[0, 1, 2].map((itemIndex) => {
-                  const dataIndex = slideIndex * 3 + itemIndex;
-                  const item = imagesAndPrices[dataIndex];
-                  if (!item) return null; // Skip if no item exists
-                  return (
-                    <Col lg={4} md={12} key={dataIndex}>
+          <Container>
+            <Row className='justify-content-center'>
+              {[0, 1, 2].map((itemIndex) => {
+                const dataIndex = slideIndex * 3 + itemIndex;
+                const item = imagesAndPrices[dataIndex];
+                if (!item) return null; // Skip if no item exists
+                return (
+                  <Col lg={4} md={12} key={dataIndex}>
+                    <motion.div
+                      whileHover={{ scale: 0.99 }}
+                      transition={{ duration: 0.4 }}
+                    >
                       <Card className='border-0'>
                         <Card.Img variant='top' src={item.img} alt='cake' />
                         <Card.ImgOverlay className='d-flex align-items-start'>
@@ -29,12 +29,12 @@ const Slider = ({ numSlides, imagesAndPrices, reverseAnimation }) => {
                           </Card.Text>
                         </Card.ImgOverlay>
                       </Card>
-                    </Col>
-                  );
-                })}
-              </Row>
-            </Container>
-          </motion.div>
+                    </motion.div>
+                  </Col>
+                );
+              })}
+            </Row>
+          </Container>
         </Carousel.Item>
       ))}
     </Carousel>
