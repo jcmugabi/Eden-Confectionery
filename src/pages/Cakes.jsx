@@ -4,7 +4,7 @@ import Slider from '../components/Slider';
 import './Cakes.css';
 
 const ButterCream = [
-  { img: require('../imgs/gallery/butter-cream/bc-1.jpg'), price: 'UGX 50,000' },
+  { img: require('../imgs/gallery/butter-cream/bc-1.jpg'), price: 'UGX 50,000', description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, cupiditate.' },
   { img: require('../imgs/gallery/butter-cream/bc-2.jpg'), price: 'UGX 60,000' },
   { img: require('../imgs/gallery/butter-cream/bc-4.jpg'), price: 'UGX 70,000' },
   { img: require('../imgs/gallery/butter-cream/bc-5.jpg'), price: 'UGX 70,000' },
