@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&family=Satisfy&display=swap');
 
-body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+h1{
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
+h2, h3, h4, h5, h5, p {
+  margin: 0;
+  font-family: "Comfortaa", sans-serif;
+}
+
+
 code {
-  font-family: 'Inter', sans-serif;
-  font-family: 'Poppins', sans-serif; 
-  }
+  font-family: 'Comfortaa', 'Poppins', sans-serif;
+}
+

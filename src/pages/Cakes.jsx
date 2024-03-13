@@ -135,29 +135,43 @@ const Cakes = () => {
       </header>
 
       <div className='cake-carousel my-5'>
-        <Container>
-          <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>ButterCream Cakes</h2>
+        <Container className='mt-5'>
+          <h2 className='text-center fs-1 mb-4 mb-lg-3 text-uppercase fw-bold text-success'>ButterCream Cakes</h2>
           <Slider imagesAndPrices={ButterCream} numSlides={numSlidesButterCream} />
+        </Container>
 
-          <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Chocolate Cakes</h2>
+        <Container className='mt-5'>
+          <h2 className='text-center fs-1 mb-4 mb-lg-3 text-uppercase fw-bold text-success'>Chocolate Cakes</h2>
           <Slider imagesAndPrices={Chocolate} numSlides={numSlidesChocolate} reverseAnimation={true} />
+        </Container>  
 
-          <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Kids Cakes</h2>
+        <Container className='mt-5'>
+          <h2 className='text-center fs-1 mb-4 mb-lg-3 text-uppercase fw-bold text-success'>Kids Cakes</h2>
           <Slider imagesAndPrices={Kids} numSlides={numSlidesKids}  />
+        </Container>
 
-          <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Fruit Cakes</h2>
+        <Container className='mt-5'>
+          <h2 className='text-center fs-1 mb-4 mb-lg-3 text-uppercase fw-bold text-success'>Fruit Cakes</h2>
           <Slider imagesAndPrices={Fruit} numSlides={numSlidesFruit} reverseAnimation={true} />
+        </Container>
 
-          <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Birthday Specials</h2>
+        <Container className='mt-5'>
+          <h2 className='text-center fs-1 mb-4 mb-lg-3 text-uppercase fw-bold text-success'>Birthday Specials</h2>
           <Slider imagesAndPrices={Birthday} numSlides={numSlidesBirthday}  />
+        </Container>
 
-          <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Wedding Cakes</h2>
+        <Container className='mt-5'>
+          <h2 className='text-center fs-1 mb-4 mb-lg-3 text-uppercase fw-bold text-success'>Wedding Cakes</h2>
           <Slider imagesAndPrices={Weddings} numSlides={numSlidesWeddings} reverseAnimation={true} />
+        </Container>
 
-          <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Graduation Cakes</h2>
+        <Container className='mt-5'>
+          <h2 className='text-center fs-1 mb-4 mb-lg-3 text-uppercase fw-bold text-success'>Graduation Cakes</h2>
           <Slider imagesAndPrices={Graduation} numSlides={numSlidesGraduation}  />
+        </Container>
 
-          <h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>Christmas Cakes</h2>
+        <Container className='mt-5'>
+          <h2 className='text-center fs-1 mb-4 mb-lg-3 text-uppercase fw-bold text-success'>Christmas Cakes</h2>
           <Slider imagesAndPrices={Christmas} numSlides={numSlidesChristmas} reverseAnimation={true} />
         </Container>
       </div>

@@ -21,16 +21,16 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto justify-content-end w-100">
-              <Nav.Link href="/" className="active text-uppercase">
+              <Nav.Link href="/" className="active font-weight-bold">
                 Home
               </Nav.Link>
-              <Nav.Link href="/Cakes" className="active text-uppercase">
+              <Nav.Link href="/Cakes" className="active font-weight-normal">
                 Cakes
               </Nav.Link>
-              <Nav.Link href="/about" className="active text-uppercase">
+              <Nav.Link href="/about" className="active font-weight-normal">
                 About
               </Nav.Link>
-              <Nav.Link href="/Contact" className="active text-uppercase">
+              <Nav.Link href="/Contact" className="active font-weight-normal">
                 Contact
               </Nav.Link>
             </Nav>

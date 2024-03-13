@@ -24,7 +24,7 @@ const Slider = ({ numSlides, imagesAndPrices, reverseAnimation }) => {
                       <Card className='border-0'>
                         <Card.Img variant='top' src={item.img} alt='cake' />
                         <Card.ImgOverlay className='d-flex align-items-start'>
-                          <Card.Text className='text-dark fs-3 fw-bold'>
+                          <Card.Text className='text-dark fs-4 '>
                             {item.price}
                           </Card.Text>
                         </Card.ImgOverlay>
