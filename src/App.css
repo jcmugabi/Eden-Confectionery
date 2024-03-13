@@ -1,38 +1,20 @@
-.App {
-  text-align: center;
+/* Add this CSS to your App.css file */
+
+.nav-link {
+  position: relative; /* Position relative to allow absolute positioning of ::after */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link::after {
+  content: ''; /* Empty content */
+  position: absolute; /* Position absolutely relative to .nav-link */
+  bottom: 5px; /* Position it just below the text */
+  left: 0; /* Align it to the left */
+  width: 0; /* Initially, no width */
+  height: 2px; /* Height of the line */
+  background-color: green; /* Color of the line */
+  transition: width 0.3s; /* Transition effect */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link:hover::after {
+  width: 100%; /* On hover, expand the line to 100% */
 }

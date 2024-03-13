@@ -8,7 +8,7 @@ h1{
   font-style: normal;
 }
 
-h2, h3, h4, h5, h5, p {
+.style-font, h2, h3, h4, h5, h5, p {
   margin: 0;
   font-family: "Comfortaa", sans-serif;
 }

@@ -14,23 +14,23 @@ function App() {
       <Navbar expand="lg" className="fixed-top bg-body-tertiary shadow">
         <Container>
           <Navbar.Brand>
-            <Link to="/" className="navbar-brand text-success fw-semibold">
+            <Link to="/" className="navbar-brand text-success fw-semibold style-font">
               Eden Confectionery
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto justify-content-end w-100">
-              <Nav.Link href="/" className="active font-weight-bold">
+              <Nav.Link href="/" className="active font-weight-bold style-font">
                 Home
               </Nav.Link>
-              <Nav.Link href="/Cakes" className="active font-weight-normal">
+              <Nav.Link href="/Cakes" className="active font-weight-normal style-font">
                 Cakes
               </Nav.Link>
-              <Nav.Link href="/about" className="active font-weight-normal">
+              <Nav.Link href="/about" className="active font-weight-normal style-font">
                 About
               </Nav.Link>
-              <Nav.Link href="/Contact" className="active font-weight-normal">
+              <Nav.Link href="/Contact" className="active font-weight-normal style-font">
                 Contact
               </Nav.Link>
             </Nav>
