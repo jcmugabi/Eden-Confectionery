@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 
-const CakeDetailsPopup = ({ cakeDetails, handleClose }) => {
+const CakeDetailsPopup = ({ cakeDetails }) => {
+  const [showModal, setShowModal] = useState(false); // Modal visibility state
+
+  useEffect(() => {
+    // Check if cakeDetails is provided and open the modal if true
+    if (cakeDetails) {
+      setShowModal(true);
+    }
+  }, [cakeDetails]); // Re-run effect when cakeDetails changes
+
   if (!cakeDetails) return null;
 
   const { img, price, description } = cakeDetails;
@@ -14,13 +23,17 @@ const CakeDetailsPopup = ({ cakeDetails, handleClose }) => {
     window.location.href = mailtoLink;
   };
 
+  const handleClose = () => {
+    setShowModal(false);
+  };
+
   return (
-    <Modal show={true} onHide={handleClose}>
+    <Modal show={showModal} onHide={handleClose}>
       <Modal.Header closeButton>
         <Modal.Title>{price}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img src={img} alt={price} style={{ maxWidth: '100%' }} />
+        <img src={img} alt={price} style={{ maxWidth: '100%' }} onClick={handleClose} /> {/* Image click closes the modal */}
         <p>{description}</p>
       </Modal.Body>
       <Modal.Footer>
