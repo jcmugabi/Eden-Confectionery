@@ -3,9 +3,11 @@
     height: 50vh;
 }
 img {
+  border-width: 2px;
     width: 20rem;
     height: 20rem;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .carousel-arrow {
